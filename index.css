@@ -12,7 +12,7 @@
 body {
     background-color: #9AABD8;
     display: flex;
-    font-family: 'digital-7regular';
+    font-family: 'digital-7regular', Courier New, Courier, monospace;
     height: 100vh;
     margin: 0;
     text-align: center;

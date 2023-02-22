@@ -58,8 +58,11 @@ function showLeader() {
   if (homeScore > guestScore) {
     homeLeadEl.textContent = 'leader'
     guestLeadEl.textContent = ''
-  } else {
+  } else if (homeScore < guestScore) {
     homeLeadEl.textContent = ''
     guestLeadEl.textContent = 'leader'
+  } else {
+    homeLeadEl.textContent = ''
+    guestLeadEl.textContent = ''
   }
 }

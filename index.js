@@ -13,33 +13,14 @@ let guestScore = start
 resetScore()
 
 /* count score */
-function homeScoreAdd1() {
-  homeScore += 1
+function homeScoreAdd(point) {
+  homeScore += point
   homeScoreEl.textContent = homeScore
   showLeader()
 }
-function homeScoreAdd2() {
-  homeScore += 2
-  homeScoreEl.textContent = homeScore
-  showLeader()
-}
-function homeScoreAdd3() {
-  homeScore += 3
-  homeScoreEl.textContent = homeScore
-  showLeader()
-}
-function guestScoreAdd1() {
-  guestScore += 1
-  guestScoreEl.textContent = guestScore
-  showLeader()
-}
-function guestScoreAdd2() {
-  guestScore += 2
-  guestScoreEl.textContent = guestScore
-  showLeader()
-}
-function guestScoreAdd3() {
-  guestScore += 3
+
+function guestScoreAdd(point) {
+  guestScore += point
   guestScoreEl.textContent = guestScore
   showLeader()
 }
